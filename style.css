@@ -1,0 +1,78 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Libre+Baskerville:ital@1&family=Oleo+Script&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@1,200&family=Oleo+Script&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{color: #F2AC57;}
+
+body {min-height:100vh;}
+
+.mapa{
+    position:absolute;
+    left: 40%;
+    width: 600px;
+    height:450px;
+    border: 0;
+}
+
+.index{
+    height: 75%;
+    width: 100%;
+}
+
+.titulo, .titulo2, .titulo3 {position:absolute; transform: rotate(-15deg);}
+.titulo2, .titulo3 {color: #bf4b21; font-family:'Oleo script', cursive;}
+
+.titulo{left: 11%; top: 24%; font-size: 4.25em; color: #F2AC57; font-family:'Brygada 1918',serif}
+.titulo2{left: 19%; top: 28%; font-size: 4.75em;}
+.titulo3{left: 24.1%; top: 33.4%; font-size: 3.25em;}
+
+.carousel-inner > .carousel-item > img {height:120vh;}
+
+.x{
+    height: auto;
+    width: 100%;
+}
+
+.menu, .esp ,.precio,.precio2{
+   position: absolute;
+   color: #000000;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2em;
+   font-weight: 750;
+   
+
+}
+
+.menu{top: 37%; left: 8%;}
+
+.esp{top: 37%; left: 15%; color: #525E55;}
+
+.precio{top: 37%; left: 29%;color:#bf4b21;}
+
+.precio2{top: 37.1%; left: 29.1%; color:#27241f;}
+
+
+
+footer{
+    align-items: flex-end;
+    background-color: #000000;
+    text-align: center;
+    padding: 50px;
+    height: 50px;
+    bottom: 0;
+}
+
+footer > p {
+    color: #ffffff;
+    align-items: center;
+}
